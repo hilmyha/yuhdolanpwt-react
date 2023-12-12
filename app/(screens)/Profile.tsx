@@ -3,7 +3,7 @@ import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 export default function Profile() {
   return (
-    <SafeAreaView className="py-12 px-4 h-full border">
+    <SafeAreaView className="pt-16 pb-8 px-6 h-full">
       <ScrollView>
         <Text>Profile</Text>
       </ScrollView>

@@ -11,7 +11,13 @@ export default function Layout() {
           headerShown: false,
           tabBarShowLabel: false,
           title: "Home",
-          tabBarIcon: ({focused}) => <Ionicons name="home" size={20} color={focused ? 'black' : 'gray'} />,
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="home"
+              size={20}
+              color={focused ? "black" : "gray"}
+            />
+          ),
         }}
       />
       <Tabs.Screen
@@ -20,7 +26,13 @@ export default function Layout() {
           headerShown: false,
           tabBarShowLabel: false,
           title: "Blog",
-          tabBarIcon: ({focused}) => <Ionicons name="md-book" size={20} color={focused ? 'black' : 'gray'} />,
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="md-book"
+              size={20}
+              color={focused ? "black" : "gray"}
+            />
+          ),
         }}
       />
       <Tabs.Screen
@@ -29,7 +41,13 @@ export default function Layout() {
           headerShown: false,
           tabBarShowLabel: false,
           title: "Favorite",
-          tabBarIcon: ({focused}) => <Ionicons name="md-heart" size={20} color={focused ? 'black' : 'gray'} />,
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="md-heart"
+              size={20}
+              color={focused ? "black" : "gray"}
+            />
+          ),
         }}
       />
       <Tabs.Screen
@@ -38,7 +56,13 @@ export default function Layout() {
           headerShown: false,
           tabBarShowLabel: false,
           title: "Profile",
-          tabBarIcon: ({focused}) => <Ionicons name="person" size={20} color={focused ? 'black' : 'gray'} />,
+          tabBarIcon: ({ focused }) => (
+            <Ionicons
+              name="person"
+              size={20}
+              color={focused ? "black" : "gray"}
+            />
+          ),
         }}
       />
     </Tabs>
